@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: none !important;
+}
+.searchform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: deeppink;
+    width: 50%;
+    float: right;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+
+.searchform input{
+    font-size: 12px;
+    padding: 10px 10px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid rgb(235, 221, 221);
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.tableContainer{
+    border: 1px solid black;
+    margin: 25px;
+    position: relative;
+}
+
+.tableContainer button{
+    padding: 8px;
+    border: none;
+    width: 120px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: silver;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0 0 100px 0;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #85929E;
+    text-align: left;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+}
+
+.status div{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 17px;
+    width: 20%;
+    background: green;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.inputChange{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    margin-left: -10px;
+}
+
+.styled-table td input {
+    width: 15px;
+    height: 15px;
+}
+
+.styled-table tbody tr {
+    font-size: 0.8em;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #EBDEF0;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid black;
+}
+.dialogWidth{
+    width: 450px !important;
+}
+.modal-content{
+    border-radius: 20px !important;
+    background: #EBDEF0 !important;
+}
+
+.modalContainer{
+    display: block !important;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem !important;
+    border-bottom: none !important;
+}
+
+.modalTitle{
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+.modalContainer button{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.fillField{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.fillField input{
+    font-size: 12px;
+    padding: 10px 10px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid rgb(235, 221, 221);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.checkboxField{
+    position: absolute;
+    top: 4px;
+    left: 55px;
+    width: 18px !important;
+    height: 18px;
+}
+
+.modal-footer{
+    justify-content: center !important;
+    padding: 0 0 2.75rem 0 !important;
+}
+
+.modal-footer button{
+    width: 40%;
+    border-radius: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}

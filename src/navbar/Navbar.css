@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoNavbar{
+display: flex;
+align-items: center;
+margin-left: 20px;
+}
+
+.logoNavbar img {
+    width: 80px;
+}
+
+.logoNavbar p{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.loginNavbar{
+    display: flex;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.loginNavbar a{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 40px;
+    color: black;
+}
+
+.pageActive{
+    border-bottom: 5px solid rgb(88, 113, 239);
+    font-weight: 600;
+}

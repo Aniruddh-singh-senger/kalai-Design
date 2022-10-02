@@ -1,0 +1,46 @@
+.loginPage{
+    display: flex;
+    justify-content: space-between;
+}
+.loginInfo{
+   width: 100%;
+   text-align: center;
+   flex: 0.3;
+   margin: 90px 0 0 70px;
+}
+
+@media (max-width:600px) {
+    .loginInfo{
+        flex: 0.8;
+    }
+}
+
+.loginInfo p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.loginform{
+    padding: 40px 5px;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+
+.loginform input{
+    font-size: 12px;
+    width: 80%;
+    padding: 15px 10px;
+    outline: none;
+    border: 0.5px solid rgb(235, 221, 221);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.loginform button{
+    width: 31%;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background: silver;
+}

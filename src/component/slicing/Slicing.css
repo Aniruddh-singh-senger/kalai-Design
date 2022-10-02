@@ -1,0 +1,276 @@
+.slicingContainer {
+  display: flex;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+/* userDistribution */
+.userDistribution {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #fdfefe;
+  text-align: center;
+  height: 80vh;
+}
+
+.stragegyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Stragegy {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 50%;
+}
+/* userDistribution */
+
+.entryDetails {
+  flex: 2;
+  text-align: center;
+  position: relative;
+}
+.entryinfo {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.infoContainer {
+  margin-bottom: 10px;
+  margin: 0 10px;
+  border-radius: 20px;
+  background-color: #fdfefe;
+  height: 80vh;
+}
+
+.infoNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 35px;
+  margin-bottom: 10px;
+}
+
+.infoNavbar a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+}
+
+.infoform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: deeppink;
+}
+
+.infoform input {
+  font-size: 12px;
+  padding: 10px 10px;
+  width: 100%;
+  outline: none;
+  border: 0.5px solid rgb(235, 221, 221);
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+/* positionContainer */
+
+.positionContainer {
+  height: 68vh;
+  position: relative;
+}
+
+.positionContainer button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px;
+  border: none;
+  width: 130px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #99a3a4;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.positionInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 18px;
+  margin: 3px 25px 0 25px;
+  border-radius: 10px 10px 0 0px;
+  background-color: #85929e;
+}
+
+.positionInfo p {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.positionRun {
+  padding: 1px 15px;
+  border-radius: 10px;
+  background-color: deeppink;
+  margin-right: 20px;
+}
+
+.emptyContainer {
+  height: 110px;
+  border: 1px solid;
+  padding: 10px 18px;
+  margin: 0px 25px 0 25px;
+  border-radius: 10px;
+}
+
+.orderContainer {
+  border: 1px solid black;
+  margin: 0px 25px 25px 25px;
+  position: relative;
+}
+
+.orderContainer button {
+  padding: 8px;
+  border: none;
+  width: 120px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: silver;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.styledTable {
+  border-collapse: collapse;
+  margin: 0 0 100px 0;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styledTable thead tr {
+  background-color: #85929e;
+  text-align: left;
+}
+
+.styledTable th,
+.styledTable td {
+  padding: 12px 0px 13px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.inputChange {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  margin-left: -10px;
+}
+
+.styledTable td input {
+  width: 15px;
+  height: 15px;
+}
+
+.styledTable tbody tr {
+  font-size: 0.8em;
+}
+
+.styledTable tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+.styledTable tbody tr {
+  border-bottom: 1px solid black;
+  background: white;
+}
+
+.boxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 90%;
+  height: 30px;
+}
+
+.boxContainer i {
+  font-size: 17px;
+}
+
+.tableFooter {
+  height: 50px;
+  padding: 12px 8px;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* modal */
+
+.modalDetailContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.purchaseContainer {
+  padding: 10px;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purchaseContainer i{
+  font-size: 18px;
+}
+
+.modalButton {
+  padding: 4px;
+  border: none;
+  width: 120px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: silver;
+  cursor: pointer;
+}
+
+.entrymodalContainer {
+  padding: 10px 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.modalWidth {
+  max-width: 650px;
+}
+
+.entrymodalTitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}

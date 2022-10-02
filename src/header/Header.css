@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    padding: 0 25px;
+}
+
+.logoSection{
+flex: 0.8;
+display: flex;
+align-items: center;
+padding-top: 10px;
+}
+
+.logoSection img {
+    width: 80px;
+}
+
+.logoSection p{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.loginSection{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.loginSection a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+
+.pageActive{
+    border-bottom: 5px solid rgb(88, 113, 239);
+    font-weight: 600;
+}
